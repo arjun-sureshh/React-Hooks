@@ -12,8 +12,11 @@ const changewidth = useRef()
 const changeheight = useRef()
 
 useEffect(() => {
+
     nameref.current.focus();
+    console.log(wrapperref)
     console.log(wrapperref.current.offsetWidth);
+
 },[])
 
     const clicksubmit = () =>{

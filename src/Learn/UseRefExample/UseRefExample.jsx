@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react'
 
 const UseRefExample = () => {
   const exampleRef = useRef()
+  
   useEffect(() => {
     console.log(exampleRef);
     exampleRef.current

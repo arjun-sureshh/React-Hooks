@@ -15,6 +15,11 @@ import UseLayoutEffect from "./Example/UseLayoutEffect/UseLayoutEffect";
 import UseImperativeHandle from "./Example/UseImperativeHandle/UseImperativeHandle";
 import UseCallBackHook from "./Learn/UseCallback/UseCallBackHook";
 import UseCalBack from "./Example/UseCallBack/UseCalBack";
+import App from "./TICTACTEO/LessCode/TicTacToe";
+import TicTacToe from "./TICTACTEO/funBased/TictacMyversion";
+import UseReducer from "./Learn/UseReducer/UseReducer";
+import UseReducerHook from "./Example/UseReducer/UseReducer";
+import Hello from "./TICTACTEO/LessCode/TicTacToe";
 
 export const router = createBrowserRouter([
   {
@@ -48,6 +53,14 @@ export const router = createBrowserRouter([
       {
         path: "/Learn/UseCallBack",
         element: <UseCallBackHook/>
+      },
+      {
+        path: "/Learn/UseReducer",
+        element: <UseReducer/>
+      },
+      {
+        path: "/Learn/poper",
+        element: <Hello/>
       },
     ]
   },
@@ -83,7 +96,12 @@ export const router = createBrowserRouter([
         path: "/Example/UseCallBack",
         element: <UseCalBack/>
       },
+      {
+        path: "/Example/UseReducer",
+        element: <UseReducerHook/>
+      },
     ]
   },
+  
 
 ]);
